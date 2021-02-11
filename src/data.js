@@ -52,6 +52,7 @@
       filtroOrden = data.pokemon.sort((a, b) => {
       return b.resistant.lenght.localeCompare(a.name.resistant.lenght)
     })};
-    return  filtroOrden
+    return  filtroOrden}
+}
   
 export default filtrara
